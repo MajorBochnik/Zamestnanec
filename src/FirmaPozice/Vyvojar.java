@@ -30,6 +30,10 @@ public class Vyvojar extends Zamestnanec {
                 System.out.println(programovaciJazyky.get(i));
             }
         }
+
+    public int getPocetJazyku() {
+        return programovaciJazyky.size();
     }
+}
 
 

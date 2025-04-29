@@ -17,4 +17,9 @@ public class Tester extends Zamestnanec{
         super.vypisInfo();
         System.out.println("Počet chyb: " + pocetChyb);
     }
+
+
+    public int getPocetChyb() {
+        return pocetChyb;
+    }
 }
